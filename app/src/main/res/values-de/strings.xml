@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Session Keeper</string>
+    <string name="StrBtnSaveLabel">speichern</string>
+    <string name="btnCancelSessionLabel">abbruch</string>
+    <string name="btnScoreAddLabel">dazu</string>
+    <string name="btnScoreDeleteLabel">weg</string>
+    <string name="btnScorePhone">anruf</string>
+    <string name="btnScoreScoreLabel">punkte</string>
+    <string name="StrDateDebug">87.87.8965 19.00.00</string>
+    <string name="btnSessionPhotoLabel">foto machen</string>
+    <string name="debug">debug Text lorem androidus</string>
+    <string name="errAlreadyAdded">schon da</string>
+    <string name="errNotAdded">spieler nicht in session</string>
+    <string name="scoreValueHint">neue punkte</string>
+    <string name="strBtnDeleteLabel">löschen</string>
+    <string name="strBtnEditLabel">ändern</string>
+    <string name="strBtnSaveSessionLabel">speichern</string>
+    <string name="strGameListBtnLabel">SPiele</string>
+    <string name="strMainMenuHint">um eine session sinvoll zu eröffnen sollten spieler und spiele da sein !!</string>
+    <string name="strMenuNew">neu</string>
+    <string name="strNewGameMsg">nues Spiel</string>
+    <string name="strNewPlayerMsg">neuer Mitspieler</string>
+    <string name="strNoPlayers">keine Spieler hinzugefügt</string>
+    <string name="strPhoneNumberURIprefix">tel:</string>
+    <string name="strPhotoBtnLabel">fotos machen</string>
+    <string name="strPlaceholder">lorem ipsum</string>
+    <string name="strPlayerListBtnLabel">Spieler</string>
+    <string name="strStartSessionBtnLabel">Session beginnen</string>
+    <string name="strTxtAgeHint">Alter</string>
+    <string name="strTxtAuthorHint">Autor</string>
+    <string name="strTxtNameHint">Name</string>
+    <string name="strTxtNoGamesHint">spiele gespielt</string>
+    <string name="strTxtPhoneNrHint">Tel.Nr.</string>
+    <string name="strTxtPublisherHint">Herausgeber</string>
+    <string name="strTxtYearHint">publikationsjahr</string>
+    <string name="txtvDateLabel">Datum und Zeit</string>
+    <string name="txtvGameSpinnerLabel">Spiel</string>
+    <string name="txtvPlayerSpinnerLabel">Ausgewählter Spieler</string>
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/session_activity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="de.chusek.sessionkeeper.gui.SessionActivity">
+
+
+    <TextView
+        android:text="@string/txtvGameSpinnerLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvGameSpinnerLabel" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spGame" />
+
+    <TextView
+        android:text="@string/txtvDateLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvDateLabel" />
+
+    <TextView
+        android:text="@string/StrDateDebug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvSessionDate"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="@string/txtvPlayerSpinnerLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvPlayerSpinnerLabel" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spPlayer" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lyPlayerBtn">
+
+        <Button
+            android:text="@string/btnScoreAddLabel"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnScoreAdd" />
+
+        <Button
+            android:text="@string/btnScoreDeleteLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnScoreDelete"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="@string/btnScoreScoreLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnScoreScore"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="@string/btnScorePhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnScorePhone" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/txtScoreValue"
+        android:hint="@string/scoreValueHint" />
+
+    <TextView
+        android:text="@string/debug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="5"
+        android:background="@drawable/border"
+        android:id="@+id/txtvScores" />
+
+    <Button
+        android:text="@string/strBtnSaveSessionLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSessionSave" />
+
+    <Button
+        android:text="@string/btnCancelSessionLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCancelSesseion" />
+
+    <Button
+        android:text="@string/btnSessionPhotoLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSessionPhoto" />
+
+</LinearLayout>
